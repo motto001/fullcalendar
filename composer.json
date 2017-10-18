@@ -1,5 +1,5 @@
 {
-  "name": "edofre/laravel-fullcalendar",
+  "name": "motto001/fullcalendar",
   "description": "Laravel component for fullcalendar package",
   "keywords": [
     "fullcalendar",
@@ -8,12 +8,12 @@
     "calendar",
     "laravel"
   ],
-  "homepage": "https://github.com/edofre/laravel-fullcalendar",
+  "homepage": "https://github.com/motto001/fullcalendar",
   "license": "MIT",
   "authors": [
     {
-      "name": "Edo Freriks",
-      "email": "edofre@gmail.com"
+      "name": "MOtto",
+      "email": "motto001@gmail.com"
     }
   ],
   "require": {
@@ -27,12 +27,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Edofre\\Fullcalendar\\": "src"
+      "motto001\\Fullcalendar\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Edofre\\Fullcalendar\\Test\\": "tests"
+      "motto001\\Fullcalendar\\Test\\": "tests"
     }
   },
   "scripts": {
@@ -41,10 +41,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Edofre\\Fullcalendar\\FullcalendarServiceProvider"
+        "motto001\\Fullcalendar\\FullcalendarServiceProvider"
       ],
       "aliases": {
-        "Fullcalendar": "Edofre\\Fullcalendar\\Facades\\Fullcalendar"
+        "Fullcalendar": "motto001\\Fullcalendar\\Facades\\Fullcalendar"
       }
     }
   }
